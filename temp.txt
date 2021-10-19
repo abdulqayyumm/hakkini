@@ -1,0 +1,9 @@
+.card-header {
+    background-color: #f7f7f9;
+    margin-bottom: -34px !important;
+    padding: 5px !important;
+    border: none !important;
+    background: linear-gradient(90deg, rgba(105, 161, 187, 1) 27%, rgba(129, 183, 191, 1) 46%, rgba(156, 208, 203, 1) 100%) !important;
+}
+
+
