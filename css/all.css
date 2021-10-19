@@ -3,7 +3,6 @@ body {
 }
 
 .language-dropdown {
-    width: 100px !important;
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
@@ -63,6 +62,10 @@ body {
     text-decoration: none;
 }
 
+.left-section .d-flex.flex-wrap div img {
+    width: 75% !important;
+}
+
 .right-section {
     padding-right: 10px;
 }
@@ -70,26 +73,20 @@ body {
 .right-section p,
 h2 {
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 32%;
-    transform: translate(-16%, -16%);
+    transform: translate(-28%, -330%);
     color: #fff;
 }
 
 .right-section h2 {
-    top: 28%;
-    font-size: 22px;
-}
-
-.line-header {
-    background: url("../assets/images/line-bg.png") no-repeat;
-    background-size: 100% 100%;
-    padding: 16px 0;
+    top: 115%;
+    font-size: 31px;
 }
 
 .line-header-eng {
     background: url("../assets/images/home page/eng-images/divider.svg") no-repeat !important;
-    padding: 33px 0 !important;
+    padding: 10px 0;
 }
 
 .line-header p {
@@ -129,6 +126,7 @@ h2 {
 }
 
 .card-header:first-child {
+    z-index: 1;
     border-radius: 0px 100px 100px 100px !important;
 }
 
@@ -167,10 +165,9 @@ h2 {
 
 .card-header h3 {
     margin: 0 0 0px;
-    font-size: 20px;
-    font-family: 'Slabo 27px', serif;
-    font-weight: bold;
+    font-size: 18px;
     color: #fff;
+    font-weight: normal;
 }
 
 .card-header-h3-eng {
@@ -183,59 +180,16 @@ h2 {
     padding: 65px 24px 24px;
     color: #232323;
     border-radius: 0 0 50px 50px;
-    border: 2px solid #72AABA !important;
+    border: 1px solid #72AABA !important;
     border-top: none !important;
 }
 
-.card-block button,
-.sign_up {
-    background: linear-gradient(90deg, rgba(105, 161, 187, 1) 27%, rgba(129, 183, 191, 1) 46%, rgba(156, 208, 203, 1) 100%) !important;
+.card-block button {
+    background: linear-gradient(270deg, rgba(105, 161, 187, 1) 27%, rgba(129, 183, 191, 1) 46%, rgba(156, 208, 203, 1) 100%) !important;
     border: none;
-    border-radius: 100px 0 100px 100px !important;
-    padding: 8px 22px;
+    border-radius: 0 100px 100px 100px !important;
+    padding: 5px 25px;
     display: block;
     color: #fff;
-    margin-left: auto;
     margin-top: 25px;
-}
-
-.sign_up {
-    background: #68A2B9 !important;
-    margin-left: 0 !important;
-}
-
-.back_to_top {
-    padding: 5px;
-    text-align: center;
-    background: #9ACECA;
-}
-
-.back_to_top a,
-.back_to_top a:hover {
-    color: #fff;
-}
-
-.botton-line {
-    padding: 5px;
-    text-align: center;
-    color: #fff;
-    background: #68A2B9;
-}
-
-.footer-text p {
-    font-size: 14px;
-    text-align: center;
-    margin-bottom: 0px;
-}
-
-.footers a {
-    color: #696969;
-}
-
-.footers a:hover {
-    color: #9CD0C8;
-}
-
-.footers ul {
-    line-height: 25px;
 }
