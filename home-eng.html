@@ -42,31 +42,31 @@
                     <h1 class="text-center">We Want to Know You, We Want You to Know You.</h1>
                     <div class="d-flex flex-wrap justify-content-center wrapper-call-section">
                         <div>
-                            <a id="my-personal-life">
+                            <a href="#wrapper-my-personal-life" id="my-personal-life">
                                 <img class="img-fluid" src="assets/images/home page/eng-images/personal-life.svg" />
                                 <p>My Personal Life</p>
                             </a>
                         </div>
                         <div>
-                            <a id="my-work-life">
+                            <a href="#wrapper-my-work-life" id="my-work-life">
                                 <img class="img-fluid" src="assets/images/home page/eng-images/work-life.svg" />
                                 <p>My Work Life</p>
                             </a>
                         </div>
                         <div>
-                            <a id="my-love-life">
+                            <a href="#wrapper-my-love-life" id="my-love-life">
                                 <img class="img-fluid" src="assets/images/home page/eng-images/love-life.svg" />
                                 <p>My Love Life</p>
                             </a>
                         </div>
                         <div>
-                            <a id="my-child-life">
+                            <a href="#wrapper-my-child-life" id="my-child-life">
                                 <img class="img-fluid" src="assets/images/home page/eng-images/child-life.svg" />
                                 <p>My Child’s Life</p>
                             </a>
                         </div>
                         <div>
-                            <a id="unwanted-behaviours-disorders">
+                            <a href="#wrapper-unwanted-behaviours-disorders" id="unwanted-behaviours-disorders">
                                 <img class="img-fluid" src="assets/images/home page/eng-images/disorder.svg" />
                                 <p>Unwanted Behaviours & Disorders
                                 </p>
@@ -79,7 +79,7 @@
     </header>
 
     <div class="sections-wrapper">
-        <div style="display: none;" class="section wrapper-my-personal-life">
+        <div style="display: none;" class="section" id="wrapper-my-personal-life">
             <div class="container divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>My Personal Life</h3>
@@ -270,7 +270,7 @@
             </div>
         </div>
     
-        <div style="display: none;" class="section wrapper-my-work-life">
+        <div style="display: none;" class="section" id="wrapper-my-work-life">
             <div class="container divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>My Work Life</h3>
@@ -348,7 +348,7 @@
             </div>
         </div>
     
-        <div style="display: none;" class="section wrapper-my-love-life">
+        <div style="display: none;" class="section" id="wrapper-my-love-life">
             <div class="container divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>My Love Life</h3>
@@ -387,7 +387,7 @@
             </div>
         </div>
        
-        <div style="display: none;" class="section wrapper-my-child-life">
+        <div style="display: none;" class="section" id="wrapper-my-child-life">
             <div class="container divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>My Child’s Life</h3>
@@ -550,7 +550,7 @@
             </div>
         </div>
     
-        <div style="display: none;" class="section wrapper-unwanted-behaviours-disorders">
+        <div style="display: none;" class="section" id="wrapper-unwanted-behaviours-disorders">
             <div class="container divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>Unwanted Behaviours & Disorders</h3>
@@ -824,13 +824,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script>
     $('.wrapper-call-section a').click(function(){
+        let scroll = $(document).height() - 200; 
         let activeSectionId = $(this).attr('id');
-        let tagetSection = $('.sections-wrapper .wrapper-'+activeSectionId);
+        let tagetSection = $('.sections-wrapper #wrapper-'+activeSectionId);
         
         $('.sections-wrapper .section').fadeOut();
             tagetSection.fadeIn();
-            let scroll = $(document).height() - 200; 
-        $(document).scrollTop(scroll);
+        // $(document).scrollTop(scroll);
     })
 
 </script>
