@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376" height="113" viewBox="0 0 376 113">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="376" height="113" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_98" data-name="Rectangle 98" width="375" height="113" fill="#e6f3f0"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <g id="Group_409" data-name="Group 409" transform="translate(0 -1032)">
+      <rect id="Rectangle_97" data-name="Rectangle 97" width="376" height="112" transform="translate(0 1032)" fill="#e6f3f0"/>
+      <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(0 1032)" clip-path="url(#clip-path-2)">
+        <g id="Group_340" data-name="Group 340" transform="translate(-85.231 -18.938)">
+          <g id="Group_339" data-name="Group 339" transform="translate(0 19)">
+            <path id="Path_342" data-name="Path 342" d="M980.716,490.445l58.076-58.076-58.076-58.076-3.728,3.728,54.347,54.347-54.347,54.347,3.728,3.728Z" transform="translate(-976.988 -374.293)" fill="#9dd4ca"/>
+            <path id="Path_343" data-name="Path 343" d="M927.54,490.445l58.076-58.076L927.54,374.293l-3.728,3.728,54.347,54.347-54.347,54.347,3.728,3.728Z" transform="translate(-905.12 -374.293)" fill="#9dd4ca"/>
+            <path id="Path_344" data-name="Path 344" d="M874.366,490.445l58.075-58.076-58.075-58.076-3.728,3.728,54.347,54.347-54.347,54.347,3.728,3.728Z" transform="translate(-833.253 -374.293)" fill="#9dd4ca"/>
+            <path id="Path_345" data-name="Path 345" d="M821.19,490.445l58.075-58.076L821.19,374.293l-3.728,3.728,54.347,54.347-54.347,54.347,3.728,3.728Z" transform="translate(-761.385 -374.293)" fill="#9dd4ca"/>
+            <path id="Path_346" data-name="Path 346" d="M768.014,490.445l58.076-58.076-58.076-58.076-3.728,3.728,54.347,54.347-54.347,54.347,3.728,3.728Z" transform="translate(-689.517 -374.293)" fill="#9dd4ca"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

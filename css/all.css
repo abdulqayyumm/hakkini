@@ -1,6 +1,9 @@
 body {
     min-width: 320px;
 }
+header, .sections-wrapper{
+    overflow-x: hidden;
+}
 
 .language-dropdown {
     border: none !important;
@@ -43,6 +46,7 @@ body {
 .banner-section .d-flex div p {
     text-align: center;
     margin-top: 10px !important;
+    color: #575858;
 }
 
 .left-section {
@@ -210,8 +214,178 @@ h2 {
     background: linear-gradient(270deg, rgba(105, 161, 187, 1) 27%, rgba(129, 183, 191, 1) 46%, rgba(156, 208, 203, 1) 100%) !important;
 }
 
-
 .card-block-button-arab {
     border-radius: 100px 0px 100px 100px !important;
     background: linear-gradient(90deg, rgba(105, 161, 187, 1) 27%, rgba(129, 183, 191, 1) 46%, rgba(156, 208, 203, 1) 100%) !important;
 } 
+.sections-wrapper .section{
+    display: none;
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (max-width: 1199px){
+    .right-section h2 {
+        top: 9%;
+        font-size: 27px;
+    }
+    .right-section p, h2 {
+        left: 12%;
+        max-width: 275px;
+        transform: none;
+    }
+    .right-section .position-relative div p:nth-child(3){
+        top: 200px;
+    }
+    .right-section .position-relative div p:nth-child(4){
+        top: 280px;
+    }
+    .left-section .d-flex.flex-wrap div img {
+        width: 100% !important;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (max-width: 991.98px){
+    .container{
+        max-width: 100% !important;
+    }
+    .banner-section {
+        padding: 0;
+    }
+    #nav {
+        padding: 30px 0 15px;
+    }
+    .right-section h2 {
+        top: 9%;
+        font-size: 30px;
+    }
+
+    .right-section p, h2 {
+        left: 13%;
+        max-width: 300px;
+        transform: none;
+    }
+    .left-section .d-flex.flex-wrap div img {
+        width: 100% !important;
+    }
+    .right-section .position-relative div p:nth-child(3){
+        top: 200px;
+    }
+    .right-section .position-relative div p:nth-child(4){
+        top: 275px;
+    }
+    .banner-section .d-flex div p {
+        margin: 0 !important;
+    }
+    .banner-section .d-flex div img {
+        min-height: 100px;
+    }
+    .line-header h3, .line-header p {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .line-header-eng {
+        padding: 0;
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (max-width: 767.98px) {
+    .right-section h2 {
+        top: 10%;
+        font-size: 24px;
+    }
+    .right-section p, h2 {
+        left: 13%;
+        max-width: 250px;
+        transform: none;
+    }
+    .right-section .position-relative div p:nth-child(3){
+        top: 142px;
+    }
+    .right-section .position-relative div p:nth-child(4){
+        top: 250px;
+    }
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 575.98px) {
+    .banner-section {
+        display: inherit;
+        margin: 0 -100px;
+    }
+    .left-section {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .top-heading{
+        font-size: 33px;
+        margin: 60px 20px;
+        color: #575858;
+        text-align: center;
+        font-weight: normal;
+    }
+    .right-section {
+        padding-right: 0;
+    }
+    .right-section p, h2 {
+        max-width: 55%;
+        left: 22%;
+        transform: none;
+        
+    }
+    .right-section .position-relative div p:nth-child(3){
+        top: 265px;
+    }
+    .right-section .position-relative div p:nth-child(4){
+        top: 352px;
+    }
+    .right-section h2 {
+        top: 11%;
+        font-size: 33px;
+        
+    }
+    .left-section{
+        width: 100%;
+        margin-top: -80px;
+        position: relative;
+    }
+    .left-section .wrapper-call-section{
+        overflow: scroll;
+        white-space: nowrap;
+        display: inherit !important;
+        margin-bottom: 30px;
+        padding: 0 100px;
+    }
+    .left-section .wrapper-call-section div{
+        display: inline-block;
+        max-width: 173px;
+        vertical-align: top;
+    }
+    .banner-section .d-flex div p {
+        white-space: break-spaces;
+    }
+    .divider{
+        padding: 0 !important;
+    }
+    .line-header h3, .line-header p {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .line-header h3 {
+        font-size: 20px;
+    }
+    .line-header p {
+        font-size: 18px;
+        color: #575858;
+    } 
+    .line-header-eng {
+        background: url("../assets/images/home page/eng-images/divider-mbl.svg") no-repeat !important;
+        padding: 10px 0;
+        background-color: #E6F3F0 !important;
+    }
+    .col-section {
+        max-width: inherit !important;
+    }
+}
