@@ -25,8 +25,8 @@
                         <option>عربي</option>
                     </select>
                 </div>
-
             </nav>
+            <h1 class="top-heading d-block d-sm-none d-md-none d-lg-none">We Want to Know You, We Want You to Know You.</h1>
             <div class="banner-section">
                 <div class="right-section ml-auto">
                     <div class="position-relative">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="left-section">
-                    <h1 class="text-center">We Want to Know You, We Want You to Know You.</h1>
+                    <h1 class="text-center d-none d-sm-block d-md-block d-lg-block">We Want to Know You, We Want You to Know You.</h1>
                     <div class="d-flex flex-wrap justify-content-center wrapper-call-section">
                         <div>
                             <a href="#wrapper-my-personal-life" id="my-personal-life">
@@ -79,7 +79,7 @@
     </header>
 
     <div class="sections-wrapper">
-        <div style="display: none;" class="section" id="wrapper-my-personal-life">
+        <div class="section" id="wrapper-my-personal-life">
             <div class="container divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>My Personal Life</h3>
@@ -88,7 +88,7 @@
             </div>
             <div class="container accordian-section">
                 <div class="row">
-                    <div class="col-md-6 col-section">
+                    <div class="col-md-6 col-xs-12 col-section">
                         <div class="bd-example" data-example-id="">
                             <div id="accordion2" role="tablist" aria-multiselectable="true">
                                 <div class="card">
@@ -178,7 +178,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-section">
+                    <div class="col-md-6 col-xs-12 col-section">
                         <div class="bd-example" data-example-id="">
                             <div id="accordion" role="tablist" aria-multiselectable="true">
                                 <div class="card">
@@ -270,7 +270,7 @@
             </div>
         </div>
     
-        <div style="display: none;" class="section" id="wrapper-my-work-life">
+        <div class="section" id="wrapper-my-work-life">
             <div class="container divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>My Work Life</h3>
@@ -348,7 +348,7 @@
             </div>
         </div>
     
-        <div style="display: none;" class="section" id="wrapper-my-love-life">
+        <div class="section" id="wrapper-my-love-life">
             <div class="container divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>My Love Life</h3>
@@ -387,7 +387,7 @@
             </div>
         </div>
        
-        <div style="display: none;" class="section" id="wrapper-my-child-life">
+        <div class="section" id="wrapper-my-child-life">
             <div class="container divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>My Child’s Life</h3>
@@ -550,7 +550,7 @@
             </div>
         </div>
     
-        <div style="display: none;" class="section" id="wrapper-unwanted-behaviours-disorders">
+        <div class="section" id="wrapper-unwanted-behaviours-disorders">
             <div class="container divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>Unwanted Behaviours & Disorders</h3>
@@ -824,15 +824,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script>
     $('.wrapper-call-section a').click(function(){
-        let scroll = $(document).height() - 200; 
+        $('#header').fadeOut();
         let activeSectionId = $(this).attr('id');
         let tagetSection = $('.sections-wrapper #wrapper-'+activeSectionId);
         
         $('.sections-wrapper .section').fadeOut();
             tagetSection.fadeIn();
-        // $(document).scrollTop(scroll);
     })
-
 </script>
 
 </html>
