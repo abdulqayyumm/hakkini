@@ -201,6 +201,38 @@ h2 {
 .sections-wrapper .section{
     display: none;
 }
+
+.modal .start-test-modal-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 140px;
+    text-align: center;
+    position: relative;
+}
+.modal .start-test-modal-wrapper .title{
+    font-weight: 700;
+}
+
+.modal .start-test-modal-wrapper .summary, .modal .start-test-modal-wrapper .title{
+    color: #68A2B9;
+    margin-bottom: 40px;
+}
+
+.modal .start-test-modal-wrapper .btn-start-test{
+    background-color: #68A2B9;
+    border: none;
+    border-radius: 0 100px 100px 100px !important;
+    padding: 5px 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.modal .start-test-modal-wrapper .model-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
   
 /* Media Query for Laptops and Desktops */
 @media (max-width: 1199px){
