@@ -84,8 +84,8 @@ h2 {
 }
 
 .right-section h2 {
-    top: 115%;
-    font-size: 31px;
+    top: 119%;
+    font-size: 32px;
 }
 
 .line-header-eng {
@@ -202,6 +202,8 @@ h2 {
 
 
 .card-block button {
+    background: linear-gradient(270deg, rgba(105, 161, 187, 1) 27%, rgba(129, 183, 191, 1) 46%, rgba(156, 208, 203, 1) 100%) !important;
+    border-radius: 0 100px 100px 100px !important;
     border: none;
     padding: 5px 25px;
     display: block;
