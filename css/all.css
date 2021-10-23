@@ -208,7 +208,40 @@ h2 {
     color: #fff;
     margin-top: 25px;
 }
+.sections-wrapper .section{
+    display: none;
+}
 
+.modal .start-test-modal-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 140px;
+    text-align: center;
+    position: relative;
+}
+.modal .start-test-modal-wrapper .title{
+    font-weight: 700;
+}
+
+.modal .start-test-modal-wrapper .summary, .modal .start-test-modal-wrapper .title{
+    color: #68A2B9;
+    margin-bottom: 40px;
+}
+
+.modal .start-test-modal-wrapper .btn-start-test{
+    background-color: #68A2B9;
+    border: none;
+    border-radius: 0 100px 100px 100px !important;
+    padding: 5px 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.modal .start-test-modal-wrapper .model-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 .card-block-button-eng {
     border-radius: 0 100px 100px 100px !important;
     background: linear-gradient(270deg, rgba(105, 161, 187, 1) 27%, rgba(129, 183, 191, 1) 46%, rgba(156, 208, 203, 1) 100%) !important;
@@ -388,4 +421,3 @@ h2 {
     .col-section {
         max-width: inherit !important;
     }
-}
