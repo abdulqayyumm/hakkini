@@ -70,26 +70,30 @@ header, .sections-wrapper{
     width: 75% !important;
 }
 
-.right-section {
-    padding-right: 10px;
+.right-section .position-relative p{
+    font-size: 18px;
 }
 
-.right-section p,
-h2 {
+.right-section .position-relative h2 {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.right-section .position-relative .content{
     position: absolute;
-    top: 100%;
-    left: 32%;
-    transform: translate(-28%, -330%);
-    color: #fff;
-}
-
-.right-section h2 {
-    top: 119%;
-    font-size: 32px;
+    top: 0;
+    transform: translate(25%, 33%);
+    right: 120px;
+    color: #ffffff;
 }
 
 .line-header-eng {
     background: url("../assets/images/home page/eng-images/divider.svg") no-repeat !important;
+    padding: 10px 0;
+}
+
+.line-header-arab {
+    background: url("../assets/images/home page/arab-images/divider.svg") 100% no-repeat !important;
     padding: 10px 0;
 }
 
@@ -143,8 +147,8 @@ h2 {
 }
 
 .card-header-eng {
-    border-radius: 0px 100px 100px 100px !important;
-    background: linear-gradient(270deg, rgba(105, 161, 187, 1) 27%, rgba(129, 183, 191, 1) 46%, rgba(156, 208, 203, 1) 100%) !important;
+    border-radius: 100px 0px 100px 100px !important;
+    background: linear-gradient(90deg, rgba(105, 161, 187, 1) 27%, rgba(129, 183, 191, 1) 46%, rgba(156, 208, 203, 1) 100%) !important;
 }
 
 .card-header a {
@@ -192,8 +196,8 @@ h2 {
 
 
 .card-block button {
-    background: linear-gradient(270deg, rgba(105, 161, 187, 1) 27%, rgba(129, 183, 191, 1) 46%, rgba(156, 208, 203, 1) 100%) !important;
-    border-radius: 0 100px 100px 100px !important;
+    background: linear-gradient(90deg, rgba(105, 161, 187, 1) 27%, rgba(129, 183, 191, 1) 46%, rgba(156, 208, 203, 1) 100%) !important;
+    border-radius: 100px 0 100px 100px !important;
     border: none;
     padding: 5px 25px;
     display: block;
@@ -234,32 +238,18 @@ h2 {
     bottom: 0;
     left: 0;
 }
+
 .sections-wrapper .section{
     display: none;
 }
-  
+
 /* Media Query for Laptops and Desktops */
 @media (max-width: 1199px){
-    .right-section h2 {
-        top: 9%;
-        font-size: 27px;
-    }
-    .right-section p, h2 {
-        left: 12%;
-        max-width: 275px;
-        transform: none;
-    }
-    .right-section .position-relative div p:nth-child(3){
-        top: 200px;
-    }
-    .right-section .position-relative div p:nth-child(4){
-        top: 280px;
-    }
-    .left-section .d-flex.flex-wrap div img {
-        width: 100% !important;
+    .right-section .position-relative .content {
+        transform: translate(27%, 25%);
     }
 }
-  
+
 /* Media Query for Tablets Ipads portrait mode */
 @media (max-width: 991.98px){
     .container{
@@ -271,25 +261,16 @@ h2 {
     #nav {
         padding: 30px 0 15px;
     }
-    .right-section h2 {
-        top: 9%;
-        font-size: 30px;
+    .right-section .position-relative .content {
+        transform: translate(25%, 25%);
     }
-
-    .right-section p, h2 {
-        left: 13%;
-        max-width: 300px;
-        transform: none;
+    .right-section .position-relative p {
+        font-size: 17px;
     }
     .left-section .d-flex.flex-wrap div img {
         width: 100% !important;
     }
-    .right-section .position-relative div p:nth-child(3){
-        top: 200px;
-    }
-    .right-section .position-relative div p:nth-child(4){
-        top: 275px;
-    }
+
     .banner-section .d-flex div p {
         margin: 0 !important;
     }
@@ -307,26 +288,32 @@ h2 {
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (max-width: 767.98px) {
-    .right-section h2 {
-        top: 10%;
-        font-size: 24px;
-    }
-    .right-section p, h2 {
-        left: 13%;
-        max-width: 250px;
+    .right-section .position-relative .content {
         transform: none;
+        left: 70px;
+        right: inherit;
+        top: 55px;
+        padding-right: 35px;
     }
-    .right-section .position-relative div p:nth-child(3){
-        top: 142px;
+    .right-section .position-relative h2 {
+        font-size: 22px;
     }
-    .right-section .position-relative div p:nth-child(4){
-        top: 250px;
+    .right-section .position-relative p {
+        font-size: 15px;
     }
 }
 
 
 /* Media Query for Mobile Devices */
 @media (max-width: 575.98px) {
+    .right-section .position-relative .content {
+        transform: none;
+        left: 100px;
+        right: 100px;
+        top: 60px;
+        padding-right: 0;
+        margin-right: 20px;
+    }
     .banner-section {
         display: inherit;
         margin: 0 -100px;
@@ -342,25 +329,8 @@ h2 {
         text-align: center;
         font-weight: normal;
     }
-    .right-section {
-        padding-right: 0;
-    }
-    .right-section p, h2 {
-        max-width: 55%;
-        left: 22%;
-        transform: none;
-        
-    }
-    .right-section .position-relative div p:nth-child(3){
-        top: 265px;
-    }
-    .right-section .position-relative div p:nth-child(4){
-        top: 352px;
-    }
-    .right-section h2 {
-        top: 11%;
-        font-size: 33px;
-        
+    .position-relative{
+        text-align: right;
     }
     .left-section{
         width: 100%;
@@ -381,6 +351,14 @@ h2 {
     }
     .banner-section .d-flex div p {
         white-space: break-spaces;
+        min-height: 40px;
+    }
+    .right-section .position-relative h2 {
+        font-size: 33px;
+        margin-bottom: 30px;
+    }
+    .right-section .position-relative p {
+        font-size: 21px;
     }
     .divider{
         padding: 0 !important;
@@ -395,7 +373,7 @@ h2 {
     .line-header p {
         font-size: 18px;
         color: #575858;
-    } 
+    }
     .line-header-eng {
         background: url("../assets/images/home page/eng-images/divider-mbl.svg") no-repeat !important;
         padding: 10px 0;
@@ -404,3 +382,4 @@ h2 {
     .col-section {
         max-width: inherit !important;
     }
+}
