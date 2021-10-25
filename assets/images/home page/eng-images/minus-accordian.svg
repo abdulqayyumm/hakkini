@@ -1,10 +1,10 @@
-<svg id="Group_87" data-name="Group 87" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44.531" height="44.534" viewBox="0 0 44.531 44.534">
+<svg id="Group_87" data-name="Group 87" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.477" height="20.479" viewBox="0 0 20.477 20.479">
   <defs>
     <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#fff"/>
       <stop offset="1" stop-color="#fff"/>
     </linearGradient>
   </defs>
-  <path id="Union_3" data-name="Union 3" d="M22.267,0H0V22.267A22.266,22.266,0,0,0,22.252,44.534h.029A22.266,22.266,0,0,0,44.531,22.311v-.089A22.266,22.266,0,0,0,22.267,0Z" fill="url(#linear-gradient)"/>
-  <rect id="Rectangle_66" data-name="Rectangle 66" width="18" height="5" transform="translate(13.076 18.792)" fill="#68a2b9"/>
+  <path id="Union_3" data-name="Union 3" d="M10.239,0H0V10.239A10.239,10.239,0,0,0,10.232,20.479h.013A10.239,10.239,0,0,0,20.477,10.26v-.041A10.239,10.239,0,0,0,10.239,0Z" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_66" data-name="Rectangle 66" width="8" height="2" transform="translate(6.461 8.72)" fill="#68a2b9"/>
 </svg>

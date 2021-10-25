@@ -16,15 +16,24 @@
     <header id="header">
         <div class="container">
             <nav id="nav">
-                <div class="form-group mr-auto">
+                <div class="form-group mr-auto d-none d-sm-block d-md-block d-lg-block">
                     <select class="form-control language-dropdown">
-                        <option>عربي</option>
-                        <option>English</option>
+                        <option value="arabic">عربي</option>
+                        <option value="eng">English</option>
                     </select>
                 </div>
-                <a href="#" class="">
+                <a href="#" class="d-none d-sm-block d-md-block d-lg-block">
                     <img class="logo-image" src="assets/images/home page/eng-images/logo.svg" />
-                </a>
+                </a> 
+                <a href="#" class="d-block d-sm-none d-md-none d-lg-none">
+                    <img class="logo-image" src="assets/images/home page/eng-images/logo.svg" />
+                </a> 
+                <div class="form-group ml-auto d-block d-sm-none d-md-none d-lg-none">
+                    <select class="form-control language-dropdown">
+                        <option value="arabic">عربي</option>
+                        <option value="eng">English</option>
+                    </select>
+                </div>
             </nav>
             <h1 dir="rtl" class="top-heading d-block d-sm-none d-md-none d-lg-none">نريدك أن نتعرف عليك، نريدك أن تتعرف على نفسك</h1>
             <div class="banner-section">
@@ -69,7 +78,7 @@
                         <div dir="rtl" class="content">
                             <h2> أي من نواحي حياتك تأثرت كثيراً في الفترة الماضية؟</h2>
                             <p>أيّاً كان السبب؛ لستَ مضطراً إلى مواجهته بمفردك</p>
-                            <p>مع المساعدة المناسبة، بإمكانك فعلا أن تُحدث تغييراً في حياتك. ما عليك سوى اختيار نواحي حياتك التي لست راضياً عنها</p>
+                            <p>مع المساعدة المناسبة، بإمكانك فعلا أن تُحدث تغييراً في حياتك. ما عليك سوى اختيار نواحي حياتك التي لست راضياً عنها.</p>
                         </div>
                     </div>
                 </div>
@@ -125,103 +134,13 @@
                 <div class="row">
                     <div class="col-md-6 col-xs-12 col-section">
                         <div class="bd-example" data-example-id="">
-                            <div id="accordion2" role="tablist" aria-multiselectable="true">
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="headingsix">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapsesix" aria-expanded="true" aria-controls="collapsesix" class="d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-                                        </div>
-                                    </div>
-        
-                                    <div dir="rtl" id="collapsesix" class="collapse show" role="tabpanel" aria-labelledby="headingsix" aria-expanded="false" data-parent="#accordion2">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="personal_life_anxiety">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="headingseven">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapseseven" aria-expanded="false" aria-controls="collapseseven" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapseseven" class="collapse" role="tabpanel" aria-labelledby="headingseven" aria-expanded="false" data-parent="#accordion2">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="personal_life_aggression">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="headingEight">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight" aria-expanded="false" data-parent="#accordion2">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="personal_life_persistent_grief">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="headingNine">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine" aria-expanded="false" data-parent="#accordion2">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="personal_life_panic_disorder">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="headingTen">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapseTen" class="collapse" role="tabpanel" aria-labelledby="headingTen" aria-expanded="false" data-parent="#accordion2">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="personal_life_social_anxiety_disorder">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12 col-section">
-                        <div class="bd-example" data-example-id="">
                             <div id="accordion" role="tablist" aria-multiselectable="true">
                                 <div class="card">
                                     <div class="card-header card-header-eng" role="tab" id="headingOne">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">الاكتئاب</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -230,7 +149,7 @@
                                     <div dir="rtl" id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" data-parent="#accordion">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="personal_life_depression">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="personal_life_depression">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -238,8 +157,8 @@
                                     <div class="card-header card-header-eng" role="tab" id="headingTwo">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">اضطراب تشوّه الجسد</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -247,7 +166,7 @@
                                     <div dir="rtl" id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" data-parent="#accordion">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="personal_life_body_dysmorphic_disorder">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="personal_life_body_dysmorphic_disorder">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -255,8 +174,8 @@
                                     <div class="card-header card-header-eng" role="tab" id="headingThree">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">الوسواس القهري</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -264,7 +183,7 @@
                                     <div dir="rtl" id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" data-parent="#accordion">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="personal_life_ocd">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="personal_life_ocd">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -272,8 +191,8 @@
                                     <div class="card-header card-header-eng" role="tab" id="headingFour">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">اضطراب ما بعد الصدمة</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -281,7 +200,7 @@
                                     <div dir="rtl" id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false" data-parent="#accordion">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="personal_life_ptsd">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="personal_life_ptsd">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -289,8 +208,8 @@
                                     <div class="card-header card-header-eng" role="tab" id="headingFive">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">اضطراب النوم</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -298,14 +217,103 @@
                                     <div dir="rtl" id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" aria-expanded="false" data-parent="#accordion">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="personal_life_sleep_disorder">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="personal_life_sleep_disorder">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-6 col-xs-12 col-section">
+                        <div class="bd-example" data-example-id="">
+                            <div id="accordion2" role="tablist" aria-multiselectable="true">
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="headingsix">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapsesix" aria-expanded="true" aria-controls="collapsesix" class="d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">القلق</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+                                        </div>
+                                    </div>
         
+                                    <div dir="rtl" id="collapsesix" class="collapse show" role="tabpanel" aria-labelledby="headingsix" aria-expanded="false" data-parent="#accordion2">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="personal_life_anxiety">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="headingseven">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapseseven" aria-expanded="false" aria-controls="collapseseven" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">العدوانية</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapseseven" class="collapse" role="tabpanel" aria-labelledby="headingseven" aria-expanded="false" data-parent="#accordion2">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="personal_life_aggression">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="headingEight">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">استمرارية الحزن</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight" aria-expanded="false" data-parent="#accordion2">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="personal_life_persistent_grief">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="headingNine">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">اضطراب الهلع</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine" aria-expanded="false" data-parent="#accordion2">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="personal_life_panic_disorder">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="headingTen">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">اضطراب القلق الاجتماعي</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapseTen" class="collapse" role="tabpanel" aria-labelledby="headingTen" aria-expanded="false" data-parent="#accordion2">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="personal_life_social_anxiety_disorder">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -321,54 +329,13 @@
                 <div class="row">
                     <div class="col-md-6 col-section">
                         <div class="bd-example" data-example-id="">
-                            <div id="accordion4" role="tablist" aria-multiselectable="true">
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="heading13">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion4" href="#collapse13" aria-expanded="false" aria-controls="collapse13" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13" aria-expanded="false" data-parent="#accordion4">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="work_life_burn_out">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="heading12">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion4" href="#collapse12" aria-expanded="false" aria-controls="collapse12" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-        
-                                    <div dir="rtl" id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12" aria-expanded="false" data-parent="#accordion4">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="work_life_stress">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-section">
-                        <div class="bd-example" data-example-id="">
                             <div id="accordion3" role="tablist" aria-multiselectable="true">
                                 <div class="card">
                                     <div class="card-header card-header-eng" role="tab" id="heading11">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">بيئة العمل المؤذية</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -377,7 +344,48 @@
                                     <div dir="rtl" id="collapse11" class="collapse" role="tabpanel" aria-labelledby="heading11" aria-expanded="false" data-parent="#accordion3">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="work_life_toxic_workplace">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="work_life_toxic_workplace">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-section">
+                        <div class="bd-example" data-example-id="">
+                            <div id="accordion4" role="tablist" aria-multiselectable="true">
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="heading13">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion4" href="#collapse13" aria-expanded="false" aria-controls="collapse13" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">الإرهاق</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13" aria-expanded="false" data-parent="#accordion4">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="work_life_burn_out">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="heading12">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion4" href="#collapse12" aria-expanded="false" aria-controls="collapse12" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">الضغط النفسي</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+        
+                                    <div dir="rtl" id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12" aria-expanded="false" data-parent="#accordion4">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="work_life_stress">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -398,14 +406,16 @@
             <div class="container accordian-section">
                 <div class="row">
                     <div class="col-md-6 col-section">
+                    </div>
+                    <div class="col-md-6 col-section">
                         <div class="bd-example" data-example-id="">
                             <div id="accordion5" role="tablist" aria-multiselectable="true">
                                 <div class="card">
                                     <div class="card-header card-header-eng" role="tab" id="heading14">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion4" href="#collapse14" aria-expanded="false" aria-controls="collapse14" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">صحّة العلاقة</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -414,14 +424,12 @@
                                     <div dir="rtl" id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14" aria-expanded="false" data-parent="#accordion5">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="love_life_relationship_health">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="love_life_relationship_health">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-section">
                     </div>
                 </div>
             </div>
@@ -438,88 +446,13 @@
                 <div class="row">
                     <div class="col-md-6 col-section">
                         <div class="bd-example" data-example-id="">
-                            <div id="accordion6" role="tablist" aria-multiselectable="true">
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="heading15">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion6" href="#collapse15" aria-expanded="false" aria-controls="collapse15" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-        
-                                    <div dir="rtl" id="collapse15" class="collapse" role="tabpanel" aria-labelledby="heading15" aria-expanded="false" data-parent="#accordion6">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="child_life_child_anxiety">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="heading16">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion6" href="#collapse16" aria-expanded="false" aria-controls="collapse16" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapse16" class="collapse" role="tabpanel" aria-labelledby="heading16" aria-expanded="false" data-parent="#accordion6">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="child_life_child_ocd">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="heading17">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion6" href="#collapse17" aria-expanded="false" aria-controls="collapse17" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapse17" class="collapse" role="tabpanel" aria-labelledby="heading17" aria-expanded="false" data-parent="#accordion6">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="child_life_child_eating_disorders">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="heading18">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion6" href="#collapse18" aria-expanded="false" aria-controls="collapse18" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapse18" class="collapse" role="tabpanel" aria-labelledby="heading18" aria-expanded="false" data-parent="#accordion6">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="child_life_child_social_media_addiction">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-section">
-                        <div class="bd-example" data-example-id="">
                             <div id="accordion7" role="tablist" aria-multiselectable="true">
                                 <div class="card">
                                     <div class="card-header card-header-eng" role="tab" id="heading19">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion7" href="#collapse19" aria-expanded="false" aria-controls="collapse19" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">القلق الاجتماعي لدى الأطفال</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -528,7 +461,7 @@
                                     <div dir="rtl" id="collapse19" class="collapse" role="tabpanel" aria-labelledby="heading19" aria-expanded="false" data-parent="#accordion7">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="child_life_child_social_anxiety">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="child_life_child_social_anxiety">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -536,8 +469,8 @@
                                     <div class="card-header card-header-eng" role="tab" id="heading20">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion7" href="#collapse20" aria-expanded="false" aria-controls="collapse20" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">اضطراب نقص الانتباه مع فرط النشاط</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -545,7 +478,7 @@
                                     <div dir="rtl" id="collapse20" class="collapse" role="tabpanel" aria-labelledby="heading20" aria-expanded="false" data-parent="#accordion7">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="child_life_child_adhd">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="child_life_child_adhd">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -553,8 +486,8 @@
                                     <div class="card-header card-header-eng" role="tab" id="heading21">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion7" href="#collapse21" aria-expanded="false" aria-controls="collapse21" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">الاكتئاب لدى الأطفال</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -562,7 +495,7 @@
                                     <div dir="rtl" id="collapse21" class="collapse" role="tabpanel" aria-labelledby="heading21" aria-expanded="false" data-parent="#accordion7">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="child_life_child_depression">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="child_life_child_depression">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -570,8 +503,8 @@
                                     <div class="card-header card-header-eng" role="tab" id="heading22">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion7" href="#collapse22" aria-expanded="false" aria-controls="collapse22" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3>إدمان الألعاب</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -579,7 +512,82 @@
                                     <div dir="rtl" id="collapse22" class="collapse" role="tabpanel" aria-labelledby="heading22" aria-expanded="false" data-parent="#accordion7">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="child_life_child_gaming_addiction">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="child_life_child_gaming_addiction">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-section">
+                        <div class="bd-example" data-example-id="">
+                            <div id="accordion6" role="tablist" aria-multiselectable="true">
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="heading15">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion6" href="#collapse15" aria-expanded="false" aria-controls="collapse15" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">القلق لدى الأطفال</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+        
+                                    <div dir="rtl" id="collapse15" class="collapse" role="tabpanel" aria-labelledby="heading15" aria-expanded="false" data-parent="#accordion6">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="child_life_child_anxiety">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="heading16">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion6" href="#collapse16" aria-expanded="false" aria-controls="collapse16" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">الوسواس القهري لدى الأطفال</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapse16" class="collapse" role="tabpanel" aria-labelledby="heading16" aria-expanded="false" data-parent="#accordion6">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="child_life_child_ocd">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="heading17">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion6" href="#collapse17" aria-expanded="false" aria-controls="collapse17" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">اضطرابات الطعام لدى الأطفال</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapse17" class="collapse" role="tabpanel" aria-labelledby="heading17" aria-expanded="false" data-parent="#accordion6">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="child_life_child_eating_disorders">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="heading18">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion6" href="#collapse18" aria-expanded="false" aria-controls="collapse18" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">إدمان الأطفال لمواقع التواصل الاجتماعي</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapse18" class="collapse" role="tabpanel" aria-labelledby="heading18" aria-expanded="false" data-parent="#accordion6">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="child_life_child_social_media_addiction">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -601,148 +609,21 @@
                 <div class="row">
                     <div class="col-md-6 col-section">
                         <div class="bd-example" data-example-id="">
-                            <div id="accordion8" role="tablist" aria-multiselectable="true">
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="heading23">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse23" aria-expanded="false" aria-controls="collapse23" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-        
-                                    <div dir="rtl" id="collapse23" class="collapse" role="tabpanel" aria-labelledby="heading23" aria-expanded="false" data-parent="#accordion8">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_aggression">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="heading24">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse24" aria-expanded="false" aria-controls="collapse24" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapse24" class="collapse" role="tabpanel" aria-labelledby="heading24" aria-expanded="false" data-parent="#accordion8">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_eating_disorders">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="heading25">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse25" aria-expanded="false" aria-controls="collapse25" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapse25" class="collapse" role="tabpanel" aria-labelledby="heading25" aria-expanded="false" data-parent="#accordion8">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_gambling_addictionS">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="heading26">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse26" aria-expanded="false" aria-controls="collapse26" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapse26" class="collapse" role="tabpanel" aria-labelledby="heading26" aria-expanded="false" data-parent="#accordion8">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_shopping_addiction">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="heading27">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse27" aria-expanded="false" aria-controls="collapse27" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapse27" class="collapse" role="tabpanel" aria-labelledby="heading27" aria-expanded="false" data-parent="#accordion8">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_ocd">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="heading33">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse33" aria-expanded="false" aria-controls="collapse33" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapse33" class="collapse" role="tabpanel" aria-labelledby="heading33" aria-expanded="false" data-parent="#accordion8">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_ptsd">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header card-header-eng" role="tab" id="heading34">
-                                        <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse34" aria-expanded="false" aria-controls="collapse34" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div dir="rtl" id="collapse34" class="collapse" role="tabpanel" aria-labelledby="heading34" aria-expanded="false" data-parent="#accordion8">
-                                        <div class="card-block">
-                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_sleep_disorder">كن لا بد أن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-section">
-                        <div class="bd-example" data-example-id="">
                             <div id="accordion9" role="tablist" aria-multiselectable="true">
                                 <div class="card">
                                     <div class="card-header card-header-eng" role="tab" id="heading28">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion9" href="#collapse28" aria-expanded="false" aria-controls="collapse28" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">إدمان الكحول</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
-        
                                         </div>
                                     </div>
         
                                     <div dir="rtl" id="collapse28" class="collapse" role="tabpanel" aria-labelledby="heading28" aria-expanded="false" data-parent="#accordion9">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_alcohol_addiction">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="unwanted_behaviours_alcohol_addiction">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -750,8 +631,8 @@
                                     <div class="card-header card-header-eng" role="tab" id="heading29">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion9" href="#collapse29" aria-expanded="false" aria-controls="collapse29" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">اضطراب التخزين</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -759,7 +640,7 @@
                                     <div dir="rtl" id="collapse29" class="collapse" role="tabpanel" aria-labelledby="heading29" aria-expanded="false" data-parent="#accordion9">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_hoarding_disorder">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="unwanted_behaviours_hoarding_disorder">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -767,8 +648,8 @@
                                     <div class="card-header card-header-eng" role="tab" id="heading30">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion9" href="#collapse30" aria-expanded="false" aria-controls="collapse30" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">إدمان الألعاب</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -776,7 +657,7 @@
                                     <div dir="rtl" id="collapse30" class="collapse" role="tabpanel" aria-labelledby="heading30" aria-expanded="false" data-parent="#accordion9">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_gaming_addiction">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="unwanted_behaviours_gaming_addiction">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -785,8 +666,8 @@
                                     <div class="card-header card-header-eng" role="tab" id="heading31">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion9" href="#collapse31" aria-expanded="false" aria-controls="collapse31" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">إدمان الموادّ</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -794,7 +675,7 @@
                                     <div dir="rtl" id="collapse31" class="collapse" role="tabpanel" aria-labelledby="heading31" aria-expanded="false" data-parent="#accordion9">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_substance_addiction">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="unwanted_behaviours_substance_addiction">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -802,8 +683,8 @@
                                     <div class="card-header card-header-eng" role="tab" id="heading32">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion9" href="#collapse32" aria-expanded="false" aria-controls="collapse32" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">اضطراب الهلع</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -811,7 +692,7 @@
                                     <div dir="rtl" id="collapse32" class="collapse" role="tabpanel" aria-labelledby="heading32" aria-expanded="false" data-parent="#accordion9">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_panic_disorder">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="unwanted_behaviours_panic_disorder">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -819,8 +700,8 @@
                                     <div class="card-header card-header-eng" role="tab" id="heading35">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion9" href="#collapse35" aria-expanded="false" aria-controls="collapse35" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">اضطراب القلق الاجتماعي</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -828,7 +709,7 @@
                                     <div dir="rtl" id="collapse35" class="collapse" role="tabpanel" aria-labelledby="heading35" aria-expanded="false" data-parent="#accordion9">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_social_anxiety_disorder">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="unwanted_behaviours_social_anxiety_disorder">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -836,8 +717,8 @@
                                     <div class="card-header card-header-eng" role="tab" id="heading36">
                                         <div dir="rtl" class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion9" href="#collapse36" aria-expanded="false" aria-controls="collapse36" class="collapsed d-flex align-items-center">
-                                                <h3 class="card-header-h3-eng">كن لا بد أن</h3>
-                                                <img class="mr-auto img-eng" src="assets/images/home page/arab-images/minus-accordian.svg" />
+                                                <h3 class="card-header-h3-eng">إدمان مواقع التواصل الاجتماعي</h3>
+                                                <div class="mr-auto img-eng"></div>
                                             </a>
         
                                         </div>
@@ -845,7 +726,133 @@
                                     <div dir="rtl" id="collapse36" class="collapse" role="tabpanel" aria-labelledby="heading36" aria-expanded="false" data-parent="#accordion9">
                                         <div class="card-block">
                                             لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
-                                            <button class="btn-take-test" id="unwanted_behaviours_social_media_addiction">كن لا بد أن</button>
+                                            <button class="btn-take-test" id="unwanted_behaviours_social_media_addiction">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-section">
+                        <div class="bd-example" data-example-id="">
+                            <div id="accordion8" role="tablist" aria-multiselectable="true">
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="heading23">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse23" aria-expanded="false" aria-controls="collapse23" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">العدوانية</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+        
+                                    <div dir="rtl" id="collapse23" class="collapse" role="tabpanel" aria-labelledby="heading23" aria-expanded="false" data-parent="#accordion8">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="unwanted_behaviours_aggression">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="heading24">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse24" aria-expanded="false" aria-controls="collapse24" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">اضطرابات الطعام</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapse24" class="collapse" role="tabpanel" aria-labelledby="heading24" aria-expanded="false" data-parent="#accordion8">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="unwanted_behaviours_eating_disorders">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="heading25">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse25" aria-expanded="false" aria-controls="collapse25" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">إدمان القمار</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapse25" class="collapse" role="tabpanel" aria-labelledby="heading25" aria-expanded="false" data-parent="#accordion8">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="unwanted_behaviours_gambling_addictionS">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="heading26">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse26" aria-expanded="false" aria-controls="collapse26" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">إدمان التسوق</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapse26" class="collapse" role="tabpanel" aria-labelledby="heading26" aria-expanded="false" data-parent="#accordion8">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="unwanted_behaviours_shopping_addiction">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="heading27">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse27" aria-expanded="false" aria-controls="collapse27" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">الوسواس القهري</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapse27" class="collapse" role="tabpanel" aria-labelledby="heading27" aria-expanded="false" data-parent="#accordion8">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="unwanted_behaviours_ocd">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="heading33">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse33" aria-expanded="false" aria-controls="collapse33" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">اضطراب ما بعد الصدمة</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapse33" class="collapse" role="tabpanel" aria-labelledby="heading33" aria-expanded="false" data-parent="#accordion8">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="unwanted_behaviours_ptsd">ابدأ الاختبار</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-header-eng" role="tab" id="heading34">
+                                        <div dir="rtl" class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion8" href="#collapse34" aria-expanded="false" aria-controls="collapse34" class="collapsed d-flex align-items-center">
+                                                <h3 class="card-header-h3-eng">اضطراب النوم</h3>
+                                                <div class="mr-auto img-eng"></div>
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" id="collapse34" class="collapse" role="tabpanel" aria-labelledby="heading34" aria-expanded="false" data-parent="#accordion8">
+                                        <div class="card-block">
+                                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعره
+                                            <button class="btn-take-test" id="unwanted_behaviours_sleep_disorder">ابدأ الاختبار</button>
                                         </div>
                                     </div>
                                 </div>
@@ -1052,6 +1059,11 @@
         takeTestModel.find('.title').text(take_test_url[btn_id].title);
         takeTestModel.find('.btn-start-test').attr('href', take_test_url[btn_id].url);
         $(".model-take-test").modal('show');
+    });
+
+    $('.language-dropdown').change(function(){
+        let val = $(this).val();
+        window.location = 'home-'+val+'.html';
     });
     
 </script>

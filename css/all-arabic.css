@@ -47,6 +47,7 @@ header, .sections-wrapper{
     text-align: center;
     margin-top: 10px !important;
     color: #575858;
+    margin-right: 25px;
 }
 
 .left-section {
@@ -57,10 +58,10 @@ header, .sections-wrapper{
 .left-section h1 {
     font-size: 21px;
     margin-bottom: 25px;
+    color: #575858;
 }
 
 .left-section .d-flex.flex-wrap div a {
-    color: black;
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
@@ -82,18 +83,14 @@ header, .sections-wrapper{
 .right-section .position-relative .content{
     position: absolute;
     top: 0;
-    transform: translate(25%, 33%);
+    transform: translate(20%, 29%);
     right: 120px;
     color: #ffffff;
+    text-align: right;
 }
 
 .line-header-eng {
-    background: url("../assets/images/home page/eng-images/divider.svg") no-repeat !important;
-    padding: 10px 0;
-}
-
-.line-header-arab {
-    background: url("../assets/images/home page/arab-images/divider.svg") 100% no-repeat !important;
+    background: url("../assets/images/home page/arab-images/divider.svg") no-repeat !important;
     padding: 10px 0;
 }
 
@@ -102,6 +99,7 @@ header, .sections-wrapper{
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 10px;
+    color: #575858;
 }
 
 .line-header h3 {
@@ -133,11 +131,6 @@ header, .sections-wrapper{
     border: none !important;
 }
 
-/* .card-header:first-child {
-    z-index: 1;
-    border-radius: 0px 100px 100px 100px !important;
-} */
-
 .card-header {
     z-index: 1;
     background-color: #f7f7f9;
@@ -147,6 +140,7 @@ header, .sections-wrapper{
 }
 
 .card-header-eng {
+    padding: 9px !important;
     border-radius: 100px 0px 100px 100px !important;
     background: linear-gradient(90deg, rgba(105, 161, 187, 1) 27%, rgba(129, 183, 191, 1) 46%, rgba(156, 208, 203, 1) 100%) !important;
 }
@@ -171,6 +165,22 @@ header, .sections-wrapper{
 .card-header .img-eng {
     margin-right: -12px;
     padding: 5px;
+    background: url('../assets/images/home page/arab-images/minus-accordian.svg') no-repeat;
+    width: 25px;
+    height: 25px;
+    padding: 16px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-header .collapsed .img-eng {
+    background: url('../assets/images/home page/arab-images/plus-accordian.svg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-header .img-eng {
+    margin-right: -12px;
 }
 
 .card-header h3 {
@@ -182,16 +192,18 @@ header, .sections-wrapper{
 
 .card-header-h3-eng {
     margin-left: 15px !important;
+    text-align: right;
 }
 
 .card-block {
     -moz-box-flex: 1;
     flex: 1 1 auto;
     padding: 65px 24px 24px;
-    color: #232323;
+    color: #575858;
     border-radius: 0 0 50px 50px;
     border: 1px solid #72AABA !important;
     border-top: none !important;
+    text-align: right;
 }
 
 
@@ -248,6 +260,9 @@ header, .sections-wrapper{
     .right-section .position-relative .content {
         transform: translate(27%, 25%);
     }
+    .banner-section .d-flex div p{
+        margin: 0 10px 0 0 !important;
+    }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
@@ -272,7 +287,7 @@ header, .sections-wrapper{
     }
 
     .banner-section .d-flex div p {
-        margin: 0 !important;
+        margin: 0 35px 0 0 !important;
     }
     .banner-section .d-flex div img {
         min-height: 100px;
@@ -310,7 +325,7 @@ header, .sections-wrapper{
         transform: none;
         left: 100px;
         right: 100px;
-        top: 60px;
+        top: 100px;
         padding-right: 0;
         margin-right: 20px;
     }
@@ -323,8 +338,8 @@ header, .sections-wrapper{
         width: 100%;
     }
     .top-heading{
-        font-size: 33px;
-        margin: 60px 20px;
+        font-size: 25px;
+        margin: 60px 25px;
         color: #575858;
         text-align: center;
         font-weight: normal;
@@ -354,17 +369,17 @@ header, .sections-wrapper{
         min-height: 40px;
     }
     .right-section .position-relative h2 {
-        font-size: 33px;
+        font-size: 26px;
         margin-bottom: 30px;
     }
     .right-section .position-relative p {
-        font-size: 21px;
+        font-size: 18px;
     }
     .divider{
         padding: 0 !important;
     }
     .line-header h3, .line-header p {
-        max-width: 80%;
+        max-width: 70%;
         margin: 0 auto;
     }
     .line-header h3 {
