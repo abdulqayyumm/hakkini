@@ -14,7 +14,7 @@
 
 <body>
     <header id="header">
-        <div class="container">
+        <div class="container" style="height: 100vh;">
             <nav id="nav">
                 <a href="#" class="">
                     <img class="logo-image" src="assets/images/home page/eng-images/logo.svg" />
@@ -80,13 +80,14 @@
 
     <div class="sections-wrapper">
         <div class="section" id="wrapper-my-personal-life">
-            <div class="container divider">
+            <div class="divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>My Personal Life</h3>
                     <p>What specific challenge did you face the most in this area?</p>
                 </div>
             </div>
             <div class="container accordian-section">
+                <button class="btn-back">Back</button>
                 <div class="row">
                     <div class="col-md-6 col-xs-12 col-section">
                         <div class="bd-example" data-example-id="">
@@ -269,13 +270,14 @@
         </div>
 
         <div class="section" id="wrapper-my-work-life">
-            <div class="container divider">
+            <div class="divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>My Work Life</h3>
                     <p>What specific challenge did you face the most in this area?</p>
                 </div>
             </div>
             <div class="container accordian-section">
+                <button class="btn-back">Back</button>
                 <div class="row">
                     <div class="col-md-6 col-section">
                         <div class="bd-example" data-example-id="">
@@ -344,13 +346,14 @@
         </div>
 
         <div class="section" id="wrapper-my-love-life">
-            <div class="container divider">
+            <div class="divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>My Love Life</h3>
                     <p>What specific challenge did you face the most in this area?</p>
                 </div>
             </div>
             <div class="container accordian-section">
+                <button class="btn-back">Back</button>
                 <div class="row">
                     <div class="col-md-6 col-section">
                         <div class="bd-example" data-example-id="">
@@ -382,13 +385,14 @@
         </div>
 
         <div class="section" id="wrapper-my-child-life">
-            <div class="container divider">
+            <div class="divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>My Child’s Life</h3>
                     <p>What specific challenge did you face the most in this area?</p>
                 </div>
             </div>
             <div class="container accordian-section">
+                <button class="btn-back">Back</button>
                 <div class="row">
                     <div class="col-md-6 col-section">
                         <div class="bd-example" data-example-id="">
@@ -537,13 +541,14 @@
         </div>
 
         <div class="section" id="wrapper-unwanted-behaviours-disorders">
-            <div class="container divider">
+            <div class="divider">
                 <div class="text-center line-header line-header-eng">
                     <h3>Unwanted Behaviours & Disorders</h3>
                     <p> What specific challenge did you face the most in this area?</p>
                 </div>
             </div>
             <div class="container accordian-section">
+                <button class="btn-back">Back</button>
                 <div class="row">
                     <div class="col-md-6 col-section">
                         <div class="bd-example" data-example-id="">
@@ -624,7 +629,7 @@
                                     </div>
                                     <div id="collapse27" class="collapse" role="tabpanel" aria-labelledby="heading27" aria-expanded="false" data-parent="#accordion8">
                                         <div class="card-block">
-                                            OCD	This OCD test can help you identify if obsessive thoughts and/or compulsive behaviors are interfering in your daily life.
+                                            This OCD test can help you identify if obsessive thoughts and/or compulsive behaviors are interfering in your daily life.
                                             <button class="btn-take-test" id="unwanted_behaviours_ocd">Take Test</button>
                                         </div>
                                     </div>
@@ -822,6 +827,11 @@
             tagetSection.fadeIn();
     })
 
+    $('.btn-back').click(function(){
+        $('#header').fadeIn();
+        $('.sections-wrapper .section').fadeOut();
+    });
+
 
     let take_test_url = {
         'personal_life_anxiety': {
@@ -990,6 +1000,8 @@
         let val = $(this).val();
         window.location = 'home-'+val+'.html';
     });
+
+    
 
 </script>
 
