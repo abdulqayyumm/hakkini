@@ -108,18 +108,23 @@ h2 {
     padding-bottom: 10px;
 }
 
+.wrapper-btn-back{
+    text-align: center;
+}
+
 .btn-back{
     background: rgba(105, 161, 187, 1);
     border-radius: 0 100px 100px 100px !important;
     border: none;
     padding: 5px 25px;
-    display: block;
+    display: inline-block;
     color: #fff;
     margin: 25px;
+    vertical-align: top;
 }
 
 .accordian-section {
-    margin: 0 50px 0;
+    margin: 50px 50px 0;
     max-width: 980px !important;
 }
 
@@ -143,7 +148,7 @@ h2 {
 .card-header {
     z-index: 1;
     background-color: #f7f7f9;
-    margin-bottom: -34px !important;
+    margin-bottom: -22px !important;
     padding: 5px !important;
     border: none !important;
 }
