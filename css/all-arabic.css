@@ -44,8 +44,8 @@ header, .sections-wrapper{
 }
 
 .banner-section .d-flex div p {
-    text-align: center;
-    margin-top: 10px !important;
+    margin-left: 27px;
+    margin-top: 5px !important;
     color: #575858;
     margin-right: 25px;
 }
@@ -278,7 +278,10 @@ header, .sections-wrapper{
         transform: translate(27%, 25%);
     }
     .banner-section .d-flex div p{
-        margin: 0 10px 0 0 !important;
+        margin: 0 0 0 5px !important;
+    }
+    .left-section .d-flex.flex-wrap div img {
+        width: 100% !important;
     }
 }
 
@@ -299,12 +302,9 @@ header, .sections-wrapper{
     .right-section .position-relative p {
         font-size: 17px;
     }
-    .left-section .d-flex.flex-wrap div img {
-        width: 100% !important;
-    }
-
+   
     .banner-section .d-flex div p {
-        margin: 0 35px 0 0 !important;
+        margin: 0 0 0 7px !important;
     }
     .banner-section .d-flex div img {
         min-height: 100px;
@@ -332,6 +332,9 @@ header, .sections-wrapper{
     }
     .right-section .position-relative p {
         font-size: 15px;
+    }
+    .banner-section .d-flex div p {
+        margin: 0 0 0 4px !important;
     }
 }
 
@@ -384,6 +387,7 @@ header, .sections-wrapper{
     .banner-section .d-flex div p {
         white-space: break-spaces;
         min-height: 40px;
+        margin: 0px 0 0 8px !important;
     }
     .right-section .position-relative h2 {
         font-size: 26px;

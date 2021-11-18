@@ -44,8 +44,9 @@ header, .sections-wrapper{
 }
 
 .banner-section .d-flex div p {
-    text-align: center;
-    margin-top: 10px !important;
+    text-align: right;
+    margin-right: 27px;
+    margin-top: 3px !important;
     color: #575858;
 }
 
@@ -280,6 +281,9 @@ h2 {
     .left-section .d-flex.flex-wrap div img {
         width: 100% !important;
     }
+    .banner-section .d-flex div p {
+        margin-right: 6px;
+    }
 }
   
 /* Media Query for Tablets Ipads portrait mode */
@@ -313,7 +317,7 @@ h2 {
         top: 275px;
     }
     .banner-section .d-flex div p {
-        margin: 0 !important;
+        margin: 0 9px 0 0 !important;
     }
     .banner-section .d-flex div img {
         min-height: 100px;
