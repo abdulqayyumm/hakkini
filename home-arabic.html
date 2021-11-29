@@ -230,14 +230,14 @@
                                 <div class="card">
                                     <div class="card-header card-header-eng" role="tab" id="headingsix">
                                         <div dir="rtl" class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapsesix" aria-expanded="true" aria-controls="collapsesix" class="d-flex align-items-center">
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapsesix" aria-expanded="show" aria-controls="collapsesix" class="collapsed d-flex align-items-center">
                                                 <h3 class="card-header-h3-eng">القلق</h3>
                                                 <div class="mr-auto img-eng"></div>
                                             </a>
                                         </div>
                                     </div>
         
-                                    <div dir="rtl" id="collapsesix" class="collapse show" role="tabpanel" aria-labelledby="headingsix" aria-expanded="false" data-parent="#accordion2">
+                                    <div dir="rtl" id="collapsesix" class="collapse" role="tabpanel" aria-labelledby="headingsix" aria-expanded="false" data-parent="#accordion2">
                                         <div class="card-block">
                                             قد يساعدك اختبار القلق هذا في تحديد ما إن كانت مشاعر مثل التوتر والخوف تؤثر على حياتك اليومية أو تقيّدها.
                                             <button class="btn-take-test" id="personal_life_anxiety">ابدأ الاختبار</button>
@@ -885,10 +885,8 @@
             <div class="start-test-modal-wrapper">
                 <div class="body">
                     <h1 class="title"></h1>
-                    <div class="summary">We're so glad you're here to learn more about your wellbeing.
-                        This anxiety test can help you identify if things like worry and fear are
-                        limiting you in your daily life. </div>
-                    <a href="#" class="btn-start-test">Start Test</a>
+                    <div class="summary"></div>
+                    <a href="#" class="btn-start-test">إبدأ الاختبار</a>
                     <img class="img-fluid model-img d-none d-sm-none d-md-block d-lg-block" src="assets/images/home page/eng-images/model-img.svg">
                     <img class="img-fluid model-img d-block d-sm-block d-md-none d-lg-none" src="assets/images/home page/eng-images/model-img-mbl.svg">
                 </div>
@@ -922,155 +920,191 @@
     let take_test_url = {
         'personal_life_anxiety': {
             'title': 'القلق',
-            'url': 'https://nwekuq89gt9.typeform.com/Anxiety-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Anxiety-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار القلق هذا في تحديد ما إن كانت مشاعر مثل التوتر والخوف تؤثر على حياتك اليومية أو تقيّدها'
         },
         'personal_life_aggression': {
             'title': 'العدوانية',
-            'url': 'https://nwekuq89gt9.typeform.com/Aggression-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Aggression-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار العدوانية هذا في تحديد ما إن كانت استراتيجيات إدارتك للغضب تؤثر على حياتك اليومية'
         },
         'personal_life_persistent_grief': {
             'title': 'استمرارية الحزن',
-            'url': 'https://nwekuq89gt9.typeform.com/Grief-Ar?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Grief-Ar?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك الاختبار هذا في تحديد ما إن كانت شدّة حزنك على وفاة عزيز لم تتغيّر مع مرور الوقت.'
         },
         'personal_life_panic_disorder': {
             'title': 'اضطراب الهلع',
-            'url': 'https://nwekuq89gt9.typeform.com/panicdis-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/panicdis-AR?typeform-source=admin.typeform.com',
+            'summary': 'نوبة الهلع هي حالة شديدة من الخوف أو الشعور بعدم الراحة. تشمل بشكل شائع الخوف من الموت، كما يشعر المصاب خلالها وكأنه يفقد عقله. يرافق هذا ضيق تنفّس، وشعور بالاختناق، والارتعاش، وآلام الصدر، و/أوالتعرّق'
         },
         'personal_life_social_anxiety_disorder': {
             'title': 'اضطراب القلق الاجتماعي',
-            'url': 'https://nwekuq89gt9.typeform.com/SocialAn-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/SocialAn-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار القلق الاجتماعي هذا في تحديد ما إن كان الخوف من حُكم الآخرين السلبي يعيق جوانب من حياتك'
         },
         'personal_life_depression': {
             'title': 'الاكتئاب',
-            'url': 'https://nwekuq89gt9.typeform.com/Depression-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Depression-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار الاكتئاب هذا في تحديد ما إن كان الفراغ الشديد والحزن يتدخلان في حياتك اليومية'
         },
         'personal_life_body_dysmorphic_disorder': {
             'title': 'اضطراب تشوه الجسد',
-            'url': 'https://nwekuq89gt9.typeform.com/BDD-Ar?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/BDD-Ar?typeform-source=admin.typeform.com',
+            'summary': '.قد يساعدك اختبار اضطراب تشوّه الجسم هذا في تحديد ما إن كان اعتبارك لوجود "عيب ما" في مظهرك الجسدي .يؤثر على حياتك اليومية'
         },
         'personal_life_ocd': {
             'title': 'الوسواس القهري',
-            'url': 'https://nwekuq89gt9.typeform.com/OCD-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/OCD-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار الوسواس القهري هذا في تحديد ما إن كانت هواجسك و/أو سلوكياتك الاضطرارية تؤثر على حياتك اليومية'
         },
         'personal_life_ptsd': {
             'title': 'اضطراب ما بعد الصدمة',
-            'url': 'https://nwekuq89gt9.typeform.com/PSTD-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/PSTD-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار اضطراب ما بعد الصدمة هذا في تحديد ما إن كانت حادثة صادمة عشتها في السابق تؤثر على حياتك اليومية'
         },
         'personal_life_sleep_disorder': {
             'title': 'اضراب النوم',
-            'url': 'https://nwekuq89gt9.typeform.com/Sleeping-Ar?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Sleeping-Ar?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار اضطراب النوم هذا في تحديد ما إن كانت عادات نومك تؤثر على حياتك اليومية.'
         },
 
         // work_life
         'work_life_burn_out': {
             'title': 'الإرهاق',
-            'url': 'https://nwekuq89gt9.typeform.com/burnout-Ar?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/burnout-Ar?typeform-source=admin.typeform.com',
+            'summary': 'يُعرَّف الإرهاق بمشاعر التعب المزمن، والضغط النفسي والارتباك، ما قد يسبب صعوبة قسوى في القيام بالمهام التي .تبدو بسيطة'
         },
         'work_life_stress': {
             'title': 'الضغط النفسي',
-            'url': 'https://nwekuq89gt9.typeform.com/Stress-Ar?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Stress-Ar?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار الضغط النفسي هذا في تحديد ما إن كانت مشاعر مثل القلق والخوف تؤثر على حياتك اليومية.'
         },
         'work_life_toxic_workplace': {
             'title': 'بيئة العمل المؤذية',
-            'url': 'https://nwekuq89gt9.typeform.com/Toxicwork-Ar?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Toxicwork-Ar?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار بيئة العمل المؤذية هذا في تحديد ما إن كانت بيئة عملك تؤثر على نفسيتك بطريقة غير صحيّة.'
         },
 
         // love_life
         'love_life_relationship_health': {
             'title': 'صحة العلاقة',
-            'url': 'https://nwekuq89gt9.typeform.com/RelationshipsAr'
+            'url': 'https://nwekuq89gt9.typeform.com/RelationshipsAr',
+            'summary': 'قد يساعدك اختبار صحّة العلاقة هذا في تحديد مدى صحّة علاقتك بشريكك.'
         },
         
         // child_life_child
         'child_life_child_anxiety': {
             'title': 'القلق لدى الأطفال',
-            'url': 'https://nwekuq89gt9.typeform.com/ChildAnx-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/ChildAnx-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعد اختبار القلق لدى الأطفال هذا في تحديد ما إن كانت مشاعر القلق الشديدة تؤثر على حياة طفلك اليومية أو تقيّدها'
         },
         'child_life_child_ocd': {
             'title': 'الوسواس القهري لدى الأطفال',
-            'url': 'https://nwekuq89gt9.typeform.com/ChildOCD-Ar?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/ChildOCD-Ar?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعد اختبار الوسواس القهري لدى الأطفال هذا في تحديد ما إن كانت هواجس و/أو سلوكيات طفلك الاضطرارية .تؤثر على حياته اليومية'
         },
         'child_life_child_eating_disorders': {
             'title': 'اضطرابات الطعام لدى الأطفال',
-            'url': 'https://nwekuq89gt9.typeform.com/EatingChildAr?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/EatingChildAr?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار اضطرابات الطعام لدى الأطفال هذا في تحديد ما إن كان طفلك يعاني من أعراض اضطراب .الطعام كفقدان الشهية أو الشره المرضي (البوليميا) أو اضطراب نهم الطعام'
         },
         'child_life_child_social_media_addiction': {
             'title': 'ادمان الأطفال لمواقع التواصل الاجتماعي',
-            'url': 'https://nwekuq89gt9.typeform.com/ChildSMADD-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/ChildSMADD-AR?typeform-source=admin.typeform.com',
+            'summary': 'د يساعد اختبار إدمان مواقع التواصل الاجتماعي لدى الأطفال هذا في تحديد ما إن كانت سلوكيات طفلك المتعلقة بمواقع التواصل الاجتماعي تُظهر أعراض إدمان'
         },
         'child_life_child_social_anxiety': {
             'title': 'القلق الاجتماعي لدى الأطفال',
-            'url': 'https://nwekuq89gt9.typeform.com/ChildSocial-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/ChildSocial-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعد اختبار القلق الاجتماعي لدى الأطفال هذا في تحديد ما إن كان الخوف من حُكم الآخرين السلبي يُحدّ طفلك في حياته اليومية'
         },
         'child_life_child_adhd': {
             'title': 'اضراب نقص الانتباه مع فرط النشاط',
-            'url': 'https://nwekuq89gt9.typeform.com/ChildADHD-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/ChildADHD-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعد اختبار اضطراب نقص الانتباه مع فرط النشاط (ADHD) هذا في تحديد ما إن كانت صعوبة الانتباه والتحكّم في السلوكيات الاضطرارية تؤثر على حياة طفلك اليومية'
         },
         'child_life_child_depression': {
             'title': 'الاكتئاب لدى الأطفال',
-            'url': 'https://nwekuq89gt9.typeform.com/ChildDepp-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/ChildDepp-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعد اختبار الاكتئاب لدى الأطفال هذا في تحديد ما إن كان الفراغ الشديد والحزن يؤثران على حياة طفلك اليومية'
         }, 
         'child_life_child_gaming_addiction': {
             'title': 'ادمان الألعاب',
-            'url': 'https://nwekuq89gt9.typeform.com/Gaming-Add-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Gaming-Add-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار إدمان ألعاب الفيديو هذا في تحديد ما إن كانت عاداتك المتعلقة بألعاب الفيديو تؤثر على حياتك اليومية'
         },
 
         // unwanted_behaviours 
         'unwanted_behaviours_aggression': {
             'title': 'العدوانية',
-            'url': 'https://nwekuq89gt9.typeform.com/Aggression-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Aggression-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار العدوانية هذا في تحديد ما إن كانت استراتيجيات إدارتك للغضب تؤثر على حياتك اليومية'
         }, 
         'unwanted_behaviours_eating_disorders': {
             'title': 'اضطرابات الطعام',
-            'url': 'https://nwekuq89gt9.typeform.com/EatingDis-Ar?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/EatingDis-Ar?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار اضطرابات الطعام هذا في تحديد ما إن كانت سلوكيات تناولك للطعام تؤثر على حياتك اليومية.'
         }, 
         'unwanted_behaviours_gambling_addiction': {
             'title': 'ادمان القمار',
-            'url': 'https://nwekuq89gt9.typeform.com/Gambling-add-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Gambling-add-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار إدمان القمار هذا في تحديد ما إن كانت عاداتك المتعلقة بلعب القمار تؤثر على حياتك اليومية'
         }, 
         'unwanted_behaviours_shopping_addiction': {
             'title': 'ادمان التسوق',
-            'url': 'https://nwekuq89gt9.typeform.com/Shopping-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Shopping-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار إدمان التسوق هذا في تحديد ما إن كانت سلوكياتك في التسوّق تؤثر على حياتك اليومية'
         }, 
         'unwanted_behaviours_ocd': {
             'title': 'الوسواس القهري',
-            'url': 'https://nwekuq89gt9.typeform.com/OCD-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/OCD-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار الوسواس القهري هذا في تحديد ما إن كانت هواجسك و/أو سلوكياتك الاضطرارية تؤثر على حياتك اليومية'
         }, 
         'unwanted_behaviours_ptsd': {
             'title': 'اضطراب ما بعد الصدمة',
-            'url': 'https://nwekuq89gt9.typeform.com/PSTD-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/PSTD-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار اضطراب ما بعد الصدمة هذا في تحديد ما إن كانت حادثة صادمة عشتها في السابق تؤثر على حياتك اليومية'
         }, 
         'unwanted_behaviours_sleep_disorder': {
             'title': 'اضطراب النوم',
-            'url': 'https://nwekuq89gt9.typeform.com/Sleeping-Ar?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Sleeping-Ar?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار اضطراب النوم هذا في تحديد ما إن كانت عادات نومك تؤثر على حياتك اليومية.'
         }, 
         'unwanted_behaviours_alcohol_addiction': {
             'title': 'ادمان الكحول',
-            'url': 'https://nwekuq89gt9.typeform.com/Alcohol-Ar?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Alcohol-Ar?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار إدمان الكحول هذا في تحديد ما إن كانت عاداتك المتعلقة بشرب الكحول تؤثر على حياتك اليومية.'
         }, 
         'unwanted_behaviours_hoarding_disorder': {
             'title': 'اضطراب التخزين',
-            'url': 'https://nwekuq89gt9.typeform.com/Hoarding-Ar?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Hoarding-Ar?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار اضطراب التخزين هذا في تحديد ما إن كان احتفاظك بأشياء لم تعد بحاجة إليها يسبب لك صعوبة في بعض جوانب حياتك.'
         }, 
         'unwanted_behaviours_gaming_addiction': {
             'title': 'ادمان الألعاب',
-            'url': 'https://nwekuq89gt9.typeform.com/Gaming-Add-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/Gaming-Add-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار إدمان ألعاب الفيديو هذا في تحديد ما إن كانت عاداتك المتعلقة بألعاب الفيديو تؤثر على حياتك اليومية'
         }, 
         'unwanted_behaviours_substance_addiction': {
             'title': 'ادمان المواد',
-            'url': 'https://nwekuq89gt9.typeform.com/SubADD-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/SubADD-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار إدمان تعاطي الموادّ المخدرة هذا في تحديد ما إن كان إدمانك لتعاطي مادة ما يؤثر على حياتك اليومية'
         }, 
         'unwanted_behaviours_panic_disorder': {
             'title': 'اضطراب الهلع',
-            'url': 'https://nwekuq89gt9.typeform.com/panicdis-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/panicdis-AR?typeform-source=admin.typeform.com',
+            'summary': 'نوبة الهلع هي حالة شديدة من الخوف أو الشعور بعدم الراحة. تشمل بشكل شائع الخوف من الموت، كما يشعر المصاب خلالها وكأنه يفقد عقله. يرافق هذا ضيق تنفّس، وشعور بالاختناق، والارتعاش، وآلام الصدر، و/أوالتعرّق'
         }, 
         'unwanted_behaviours_social_anxiety_disorder': {
             'title': 'اضطراب القلق الاجتماعي',
-            'url': 'https://nwekuq89gt9.typeform.com/SocialAn-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/SocialAn-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار القلق الاجتماعي هذا في تحديد ما إن كان الخوف من حُكم الآخرين السلبي يعيق جوانب من حياتك'
         }, 
         'unwanted_behaviours_social_media_addiction': {
             'title': 'ادمان مواقع التواصل الاجتماعي',
-            'url': 'https://nwekuq89gt9.typeform.com/SocialMedia-AR?typeform-source=admin.typeform.com'
+            'url': 'https://nwekuq89gt9.typeform.com/SocialMedia-AR?typeform-source=admin.typeform.com',
+            'summary': 'قد يساعدك اختبار إدمان مواقع التواصل الاجتماعي هذا في تحديد ما إن كانت سلوكياتك المتعلقة بمواقع التواصل الاجتماعي تؤثر على حياتك اليومية'
         }
     }
 
@@ -1078,6 +1112,7 @@
         let btn_id = $(this).attr('id');
         let takeTestModel = $('.modal .start-test-modal-wrapper');
         takeTestModel.find('.title').text(take_test_url[btn_id].title);
+        takeTestModel.find('.summary').text(take_test_url[btn_id].summary);
         takeTestModel.find('.btn-start-test').attr('href', take_test_url[btn_id].url);
         $(".model-take-test").modal('show');
     });
